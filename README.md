@@ -18,6 +18,6 @@ please visit: https://www.reddit.com/r/docker/comments/6ltn29/noob_q_how_do_i_sa
 
 To persist work done in the jupyter notebook run the following command
 
-'sudo docker run -p 8888:8888 -v 'pwd'/notebooks:/notebooks -it jupyterdocker'
+`sudo docker run -p 8888:8888 -v 'pwd'/notebooks:/notebooks -it jupyterdocker`
 
 Where 'pwd' is the directory where you cloned the repo. The -v command is to mount the state locally
